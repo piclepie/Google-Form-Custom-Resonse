@@ -32,8 +32,8 @@ function onFormSubmit(e) {
       }
       mail_array.push('<tr><td>' + r[1] + '</td></tr>')
     });
-    const competed_template = htmltemplate(mail_array.join(''));
-    return competed_template;
+    const completed_template = htmltemplate(mail_array.join(''));
+    return completed_template;
   }
   
   
